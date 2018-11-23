@@ -6,7 +6,7 @@ import createReactClass from 'create-react-class';
 
 const App = createReactClass({
 	render:function(){
-		return <h1>Aplicacao A</h1>;
+		return <h1>Aplicacao </h1>;
 	}
 });
 
