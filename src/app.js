@@ -1,9 +1,8 @@
 'use strict';
 
-var React = require('react'); 
-var createReactClass = require('create-react-class');
-
-console.log('ye');
+import React from 'react'; 
+import createReactClass from 'create-react-class';
+ 
 
 var Title = createReactClass({
 	render:function(){
@@ -14,4 +13,4 @@ var Title = createReactClass({
 
 //ReactDOM.render(<App />, document.getElementById('app'));
 
-module.exports = Title;
+export default Title;
