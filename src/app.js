@@ -4,13 +4,13 @@ import React from 'react';
 import createReactClass from 'create-react-class';
  
 
-var Title = createReactClass({
+const App = createReactClass({
 	render:function(){
-		return React.createElement('h1',null, 'Titulo');
+		return <h1>Aplicacao A</h1>;
 	}
 });
 
 
 //ReactDOM.render(<App />, document.getElementById('app'));
 
-export default Title;
+export default App;
